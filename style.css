@@ -1,0 +1,132 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Sacramento', cursive;
+
+colors:
+#D6D5A8
+#816797
+#51557E
+#1B2430
+
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Sacramento&display=swap');
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    background-color: #1B2430;
+    color: #D6D5A8;
+
+    margin: 0;
+}
+
+h1 {
+    font-size: 10rem;
+}
+h3  {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+    padding-bottom: 2rem;
+
+    width: 75rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 12rem 20rem;
+    padding: 1.5rem 2rem; 
+
+    position: relative;
+    
+}
+
+.header {
+    /* width: 50%; */
+}
+
+.header__img {
+    width: 70%;
+    border-radius: 50%;
+    /* padding: 5rem; */
+
+    border: 1rem solid #816797;
+}
+
+.h1__cursive {
+    font-family: "Sacramento", cursive;
+    line-height: .3;
+}
+
+.h1__highlight {
+    color: #816797;
+
+}
+
+
+.btn {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 1.5rem 4rem;
+
+    color: #D6D5A8;
+    background-image: linear-gradient(to right , #816797, #51557E);
+    border-radius: 1rem;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.ball__1 {
+    background-image: linear-gradient(to right bottom , #b790da, #51557E);
+    top: -18rem;
+    left: -27rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.ball__2 {
+    background-image: linear-gradient(to right bottom , #9887af, #4D4C7D);
+    height: 20rem;
+    width: 20rem;
+    bottom: -7rem;
+    right: -13rem;
+    z-index: -1;
+}
+.ball__3 {
+    background-image: linear-gradient(to right bottom , #a28ebd, #545480);
+    height: 5rem;
+    width: 5rem;
+    /* bottom: 0;
+    right: -5rem; */
+    top: -2rem;
+    left: 45%;
+    z-index: -1;
+}
