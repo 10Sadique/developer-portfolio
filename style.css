@@ -150,7 +150,7 @@ h3  {
     align-items: center;
     justify-content: center;
 
-    margin: 20rem 15rem 10rem;
+    margin: 20rem 15rem 20rem;
     padding: 1.135rem 1.5rem; 
 
     position: relative;
@@ -165,6 +165,8 @@ h3  {
 
     box-shadow: 0 .5rem 2rem #d6d5a82f;
 }
+
+
 
 .dream__h1 {
     font-size: 6rem;
@@ -188,6 +190,7 @@ h3  {
     /* padding-right: 4rem; */
 
     width: 56.25rem;
+    text-align: justify;
 }
 
 .ball__4 {
@@ -210,3 +213,119 @@ h3  {
     box-shadow: 0 .5rem 2rem #4d4c7daf;
 }
 
+/* Experience Section */
+.experience {
+    margin: 10rem 15rem 10rem;
+    padding: 1.135rem 1.5rem; 
+
+    position: relative;
+    z-index: 100;
+}
+
+.experience__h1 {
+    font-size: 6rem;
+    font-weight: 400;
+
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.experience__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.experience__list--1 {
+    height: 35rem;
+    margin: 1rem 4rem 1rem 0;
+    padding: 2rem;
+    border-left: 1rem solid #9ADCFF;
+
+    box-shadow: 0 1rem 4rem #a28ebd49;
+
+    border-radius: 10px;
+
+    background-color: #354259ab;
+}
+.experience__list--2 {
+    height: 35rem;
+    margin: 1rem 0 1rem 0;
+    padding: 2rem;
+    border-left: 1rem solid #FFB2A6;
+
+    box-shadow: 0 1rem 4rem #a28ebd49;
+
+    border-radius: 10px;
+
+    background-color: #354259ab;
+}
+
+.experience__h1--1 {
+    font-size: 4rem;
+}
+
+.experience__h3 {
+    font-size: 2rem;
+    color: #b790da;
+}
+
+.experience__para {
+    font-size: 1.875rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+    padding-bottom: 1.5rem;
+    /* padding: 4rem; */
+}
+
+.ball__6 {
+    background-image: linear-gradient(to bottom , #cea5f1, #444a85);
+    top: -5rem;
+    left: -32rem;
+    height: 25rem;
+    width: 25rem;
+    z-index: -1;
+}
+
+.ball__7 {
+    background-image: linear-gradient(to right bottom , #9887af, #4D4C7D);
+    height: 20rem;
+    width: 20rem;
+    bottom: -5rem;
+    right: -6rem;
+    z-index: -1;
+}
+
+.ball__8 {
+    background-image: linear-gradient(to right bottom , #a28ebd, #545480);
+    height: 3.75rem;
+    width: 3.75rem;
+    
+    top: 0;
+    right: 30%;
+    z-index: -1;
+} 
+
+/* Footer */
+
+footer {
+    background-color: #35425948;
+}
+
+.footer__para {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 10rem 15rem 0;
+    padding: 2rem 0; 
+}
+
+hr {
+    width: 25rem;
+    height: .3rem;
+    background-color: #cea5f175;
+    border: none;
+
+    border-radius: 100px;
+}
