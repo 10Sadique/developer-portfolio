@@ -12,9 +12,13 @@ colors:
 
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Sacramento&display=swap');
 
+ * {
+    padding: 0;
+ }
 
 html {
     font-size: 62.5%;
+    
 }
 
 body {
@@ -33,15 +37,9 @@ h3  {
     font-size: 2.25rem;
 }
 
-p {
-    font-size: 1.875rem;
-    font-weight: 300;
-    line-height: 1.5;
 
-    padding-bottom: 1,5rem;
 
-    width: 56.25rem;
-}
+/* Header Section */
 
 .heading {
     display: flex;
@@ -55,16 +53,30 @@ p {
     
 }
 
-.header {
-    /* width: 50%; */
+/* .header {
+    width: 50%; 
+} 
+*/
+
+.header__para {
+    font-size: 1.875rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+    padding-bottom: 1.5rem;
+    padding-right: 4rem;
+
+    width: 56.25rem;
 }
 
 .header__img {
-    width: 70%;
+    width: 80%;
     border-radius: 50%;
     /* padding: 5rem; */
 
-    border: .75rem solid #816797;
+    border: 1rem solid #816797;
+
+    box-shadow: 0 .5rem 2rem #d6d5a82f;
 }
 
 .h1__cursive {
@@ -95,7 +107,7 @@ p {
 }
 
 .btn:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .ball {
@@ -114,8 +126,8 @@ p {
 
 .ball__2 {
     background-image: linear-gradient(to right bottom , #9887af, #4D4C7D);
-    height: 15rem;
-    width: 15rem;
+    height: 12rem;
+    width: 12rem;
     bottom: -5.25rem;
     right: -9.75rem;
     z-index: -1;
@@ -126,7 +138,75 @@ p {
     width: 3.75rem;
     /* bottom: 0;
     right: -5rem; */
-    top: -1.5rem;
+    top: -2.5rem;
     left: 45%;
     z-index: -1;
 }
+
+/* Dream Section */
+
+.dream__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20rem 15rem 10rem;
+    padding: 1.135rem 1.5rem; 
+
+    position: relative;
+}
+
+.dream__img {
+    width: 80%;
+    border-radius: 50%;
+    /* padding: 5rem; */
+
+    border: 1rem solid #816797;
+
+    box-shadow: 0 .5rem 2rem #d6d5a82f;
+}
+
+.dream__h1 {
+    font-size: 6rem;
+    font-weight: 400;
+
+    color: #b790da;
+
+    margin: 1rem 0;
+}
+
+.dream__h2 {
+    font-size: 2rem;
+}
+
+.dream__para {
+    font-size: 1.875rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+    padding-bottom: 1.5rem;
+    /* padding-right: 4rem; */
+
+    width: 56.25rem;
+}
+
+.ball__4 {
+    background-image: linear-gradient(to right bottom , #b790da, #51557E);
+    bottom: -1rem;
+    left: -2rem;
+    height: 15rem;
+    width: 15rem;
+    z-index: -1;
+}
+
+.ball__5 {
+    background-image: linear-gradient(to right bottom , #b790da, #51557E);
+    bottom: 31rem;
+    left: 31rem;
+    height: 8rem;
+    width: 8rem;
+    z-index: 2;
+
+    box-shadow: 0 .5rem 2rem #4d4c7daf;
+}
+
